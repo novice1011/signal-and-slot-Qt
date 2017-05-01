@@ -2,7 +2,8 @@
 Experiment about signal and slot between different classes
 
 This project is created to learn how to modify object (change the 'text' of a pushbutton).
-There are 2 classes, MainWindow and Form
+
+ThereThere are 2 classes, MainWindow and Form
 
 MainWindow class contain a pushButton, and a widget.
 The widget is promoted to a new class. Form class.
@@ -12,6 +13,6 @@ Form class also contain a pushButton.
 What I want to do here is click pushButton in MainWindow and modify the pushButton in Form
 and click pushButton in Form and modify the pushButton in MainWindow
 
-There are two ways to modify the pushButton in MainWindow
+There are two ways to modify the pushButton in Form
 1. use signal and slot
 2. use function to access the pushButton which is a private object in Form class
